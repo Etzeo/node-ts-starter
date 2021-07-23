@@ -11,6 +11,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:unicorn/recommended',
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
     project: './tsconfig.json',
