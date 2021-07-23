@@ -7,8 +7,12 @@
     "prepare": "husky install",
     "lint": "eslint ./ --ext ts",
     "lint:fix": "eslint ./ --ext ts --fix",
-    "type-check": "tsc --pretty --noEmit"
+    "type-check": "tsc --pretty --noEmit",
+    "build": "rm -rf ./dist && tsc",
+    "serve": "node dist/index.js",
+    "start": "yarn build && node dist/index.js"
   },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
