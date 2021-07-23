@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "main": "index.js",
   "private": true,
+  "script": {
+    "prepare": "husky install"
+  },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
