@@ -2,5 +2,9 @@
   "name": "periodic-website-screenshot",
   "version": "0.1.0",
   "main": "index.js",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4"
+  }
 }
