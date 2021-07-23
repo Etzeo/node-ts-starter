@@ -4,7 +4,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint ./ --ext ts",
+    "lint:fix": "eslint ./ --ext ts --fix",
+    "type-check": "tsc --pretty --noEmit"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
